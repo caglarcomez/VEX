@@ -8,3 +8,6 @@
 ### Rotation (rotation.hipnc)
 ![](rotation.gif)
 
+### Maurer Rose (maurerRose.hipnc)
+![](maurerRose.gif)
+
