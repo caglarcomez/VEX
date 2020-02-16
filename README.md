@@ -11,3 +11,6 @@
 ### Maurer Rose (maurerRose.hipnc)
 ![](maurerRose.gif)
 
+### Move Along Curve (move_along_curve.hipnc)
+![](move_along_curve.gif)
+
