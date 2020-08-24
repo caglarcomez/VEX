@@ -17,3 +17,6 @@
 ### Quilling (quilling.hipnc)
 ![](quilling.gif)
 
+### Feather Gen (feather_gen.hipnc)
+![](hlfeathers.gif)
+
