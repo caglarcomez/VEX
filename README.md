@@ -21,7 +21,8 @@
 ![](hlfeathers.gif)
 
 ### VEX Header Files (vex_header.hipnc)
-###### Header file location **\houdini18.0\vex\include\**fx_tools.h
+Header file location \houdini18.0\vex\include\fx_tools.h
+###### Header File fx_tools.h
 ```
 int compare_vectors(vector p1, p2; float threshold){
 	if(abs(dot(p1,p2)) > 1- threshold){
