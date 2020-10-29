@@ -22,7 +22,7 @@
 
 ### VEX Header Files (vex_header.hipnc)
 ###### Header File fx_tools.h (Header file location \houdiniXX.X\vex\include\fx_tools.h)
-```
+```c
 int compare_vectors(vector p1, p2; float threshold){
 	if(abs(dot(p1,p2)) > 1- threshold){
 		return 1;
@@ -32,7 +32,7 @@ int compare_vectors(vector p1, p2; float threshold){
 }
 ```
 ###### Include In Wrangle Node
-```
+```c
 #include <fx_tools.h>
 
 printf("%d",compare_vectors(@P,point(1,"P",3),0.1));
