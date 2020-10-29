@@ -20,3 +20,22 @@
 ### Feather Gen (feather_gen.hipnc)
 ![](hlfeathers.gif)
 
+### VEX Header Files (vex_header.hipnc)
+###### Header file location **\houdini18.0\vex\include\**fx_tools.h
+```
+int compare_vectors(vector p1, p2; float threshold){
+	if(abs(dot(p1,p2)) > 1- threshold){
+		return 1;
+	}else{
+		return 0;
+	}
+}
+```
+###### Include In Wrangle Node
+```
+#include <fx_tools.h>
+
+printf("%d",compare_vectors(@P,point(1,"P",3),0.1));
+```
+
+
